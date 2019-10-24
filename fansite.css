@@ -1,0 +1,275 @@
+/*============================HEADER & FOOTER====================================*/
+
+header{
+    background-image: url("Images/lolfansitebanner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    font-size: 175%;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    position: fixed;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#menuheader1{
+    display: flex;
+}
+
+#menuheader2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerspace{
+    margin-left: 50%;
+}
+
+header a:link{
+    color:white;
+    text-decoration: none;
+}
+
+header a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+header a:active{
+    color:white;
+    text-decoration: none;
+}
+
+header a:hover{
+	border-top: 3px solid white;
+	padding-top: 1%;
+    text-shadow:0px 0px 10px #ca9421, 0px 0px 10px #ca9421,0px 0px 10px #ca9421;
+    transition: all 0.5s ease-out;
+}
+
+header img{
+    width:35%;
+    height: 100%;
+    display: flex;
+}
+
+footer img{
+    width: 100%;
+    height: 75%;
+}
+
+#footerrangement{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 15%;
+}
+
+footer a:link{
+    color:rgb(125, 82, 26);
+    text-decoration: none;
+}
+
+footer a:visited{
+    color:rgb(125, 82, 26);
+    text-decoration: none;
+}
+
+footer a:active{
+    color:rgb(125, 82, 26);
+    text-decoration: none;
+}
+
+footer a:hover{
+	border-bottom: 1px solid white;
+	padding-top: 1%;
+    color:rgb(196, 185, 52);
+    transition: all 0.5s ease-out;
+}
+
+
+
+/*============================ACCUEIL====================================*/
+
+
+
+/*============================ACTUALITE====================================*/
+
+.mainactu{
+	background-image: url("photo/backactu.png");
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+
+.actu{
+	background-color: rgb(93, 118, 133, 0.5);
+	width: 60% ;
+	margin: 0 auto ;
+}
+
+
+
+div > #titre {
+	color: blue ;
+	font-weight: bolder;
+	font-size: 15px ;
+}
+
+.sec1actu{
+	border-style: solid;
+	border-color: white ;
+
+}
+
+.sec1actu > p{
+	width: 50% ;
+	float: left;
+	padding: 3% ;
+    text-align: center;
+    
+}
+
+.sec1actu > img {
+	padding-left: 15% ;
+}
+
+.sec2actu{
+	border-style: solid;
+	border-color: white ;
+}
+
+.sec2actu > p{
+	width: 50% ;
+	float: right;
+	padding: 3% ;
+    text-align: center;
+}
+
+.sec3actu{
+	border-style: solid;
+	border-color: white ;
+}
+
+.sec3actu > p{
+	width: 50% ;
+	float: left;
+	padding: 3% ;
+    text-align: center;
+}
+
+.sec3actu > img {
+	padding-left: 15% ;
+}
+
+
+.sec4actu{
+	border-style: solid;
+	border-color: white ;
+}
+
+.sec4actu > p{
+	width: 50% ;
+	float: right;
+	padding: 3% ;
+    text-align: center;
+}
+
+.sec5actu{
+	border-style: solid;
+	border-color: white ;
+}
+
+.sec5actu > p{
+	width: 50% ;
+	float: left;
+	padding: 3% ;
+    text-align: center;
+}
+
+.sec5actu > img {
+	padding-left: 15% ;
+}
+
+
+.sec6actu{
+	border-style: solid;
+	border-color: white ;
+}
+
+
+.sec6actu > p{
+	width: 50% ;
+	float: right;
+	padding: 3% ;
+    text-align: center;
+}
+
+.sec7actu{
+	border-style: solid;
+	border-color: white ;
+}
+
+.sec7actu > p{
+	width: 50% ;
+	float: left;
+	padding: 3% ;
+    text-align: center;
+}
+
+.sec7actu > img {
+	padding-left: 15% ;
+}
+
+
+.sec8actu{
+	border-style: solid;
+	border-color: white ;
+}
+
+.sec8actu > p{
+	width: 50% ;
+	float: right;
+	padding: 3% ;
+    text-align: center;
+}
+
+.sec9actu{
+	border-style: solid;
+	border-color: white ;
+}
+
+.sec9actu > p{
+	width: 50% ;
+	float: left;
+	padding: 3% ;
+    text-align: center;
+}
+
+.sec9actu > img {
+	padding-left: 15% ;
+}
+
+
+.sec10actu{
+	border-style: solid;
+	border-color: white ;
+}
+
+.sec10actu > p{
+	width: 50% ;
+	float: right;
+	padding: 3% ;
+    text-align: center;
+}
+
