@@ -1,4 +1,12 @@
 /*============================HEADER & FOOTER====================================*/
+@import url('https://fonts.googleapis.com/css?family=Srisakdi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
+
+
+
 
 body{
 	margin: 0 ;
@@ -60,11 +68,6 @@ header img{
     height: 100%;
 }
 
-footer img{
-    width: 100%;
-    height: 75%;
-}
-
 footer{
     display: flex;
     border-top:2px solid rgb(125, 82, 26);
@@ -88,22 +91,22 @@ footer img{
     flex-direction: column;
 }
 
-footer a:link{
+#footernav a:link{
     color:rgb(125, 82, 26);
     text-decoration: none;
 }
 
-footer a:visited{
+#footernav a:visited{
     color:rgb(125, 82, 26);
     text-decoration: none;
 }
 
-footer a:active{
+#footernav a:active{
     color:rgb(125, 82, 26);
     text-decoration: none;
 }
 
-footer a:hover{
+#footernav a:hover{
 	border-bottom: 1px solid white;
     color:rgb(196, 185, 52);
     transition: all 0.8s ease-out;
@@ -146,25 +149,352 @@ footer a:hover{
 }
 
 #socialfooter img{
-    width: 15%;
-    height: 15%;
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
 }
 
 
 
 /*=================================================================================ACCUEIL=========================================================================*/
 
+#accueilmain{
+    padding-top:4.75%;
+}
 
+#firstmain{
+    background-image: url("Images/godkingdarius3.jpg");
+    height: 100%;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(125, 82, 26);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+#firstmainarticle{
+    width: 30%;
+    color: white;
+    font-size: 120%;
+    text-align: justify;
+    padding: 1.5%;
+    height: 89.75%;
+    background-color: rgb(93, 118, 133, 0.5);
+    border-left: 1.5px solid rgb(125, 82, 26);
+    border-right: 1.5px solid rgb(125, 82, 26);
+    margin-left: 2%;
+}
+
+#secondmainarticle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Parisienne', cursive;
+    align-items: center;
+    background-image: url("Images/godkinggaren2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:1%;
+    padding-bottom: 1%;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 150%;
+}
+
+#secondmainarticle img{
+    border-radius: 50% 50% 50% 50%;
+    width: 40%;
+    height: 40%;
+    border: 2.5px solid white;
+}
+
+#secondmainarticle img:hover{
+    border-radius: 15px 15px 15px 15px;
+    transition: all 0.5s ease-out;
+}
+
+.articlephotorangement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.nom{
+    padding-left: 5%;
+    font-size: 150%;
+}
+
+#thirdmainarticle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Images/wikibackground.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-top: 1.5px solid rgb(125, 82, 26);
+}
+
+#wikiarticleriot{
+    width: 40%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    border-left: 1.5px solid rgb(125, 82, 26);
+    border-right: 1.5px solid rgb(125, 82, 26);
+    background-color:rgb(255, 255, 255,0.75);
+    font-family: 'Arial';
+}
 
 /*=================================================================================Evenement=========================================================================*/
 
 
+#bodyevents{
+    background-color: rgb(10, 10, 12);
+}
 
+#mainevent{
+    padding-top: 5%;
+}
+
+#imagetopmain{
+    border-bottom: 1.5px solid rgb(125, 82, 26);
+    width: 100%;
+}
+
+#sectionarticle1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(10, 10, 12);
+    height: 100%;
+    color: white;
+}
+
+#cupevent{
+    margin-left: 15%;
+}
+
+#sectionarticle1 img{
+    width: 85%;
+}
+
+#aside2{
+    background-color: rgb(10, 10, 12);
+}
+
+#sectionarticle1{
+    border-bottom: 2px solid rgb(125, 82, 26);
+}
+
+#articlewikievent1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    text-align: justify;
+    border-left: 2px solid rgb(125, 82, 26);
+    border-right:2px solid rgb(125, 82, 26);
+    height: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Arial';
+    font-size:80%;
+}
+
+#sectionwikievent2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid rgb(125, 82, 26);
+}
+
+#sectionarticle2rangement{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#articlewikievent2{
+    color: white;
+    width: 50%;
+    margin-left:15%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top:5%;
+    padding-bottom: 5%;
+    border-right: 2px solid rgb(125, 82, 26);
+    border-left: 2px solid rgb(125, 82, 26);
+    height: 82%;
+    font-family: 'Arial';
+    font-size: 80%;
+}
+
+#lckimage{
+    margin-right: 15%;
+    width: 70%;
+}
+
+#quartdefinalsection{
+    display: flex;
+    flex-direction: column;
+}
+
+#quartdefinalh1{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#quartdefinal{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 23%;
+    font-family: 'Arial';
+}
+
+#quartdefinalspace{
+    border-bottom: 1.5px solid rgb(58, 58, 58);
+    width: 100%;
+    line-height: 350%;
+}
+
+.quartdefinalspace2{
+    margin-left: 15%;
+    height: 100%;
+}
 
 
 /*=================================================================================Photo/Video=========================================================================*/
 
+#slider{
+	width: 100% ;
+    max-width: 3000px ;
+    overflow: hidden;
+}
 
+#slider figure {
+	position: relative;
+    width: 830% ;
+	margin : 0 ;
+	padding : 0 ;
+	font-size: 0 ;
+	animation: 13s slidy infinite ;
+}
+
+#slider img {
+	width: 4% ;
+    height: auto;
+}
+
+.sliderimage{
+    border-right: 2px solid rgb(125, 82, 26);
+    border-left: 2px solid rgb(125, 82, 26);
+}
+
+@keyframes slidy {
+	0% { left: 0%; }
+  	20% { left: 0%; }
+  	25% { left: -100%; }
+  	45% { left: -100%; }
+  	50% { left: -200%; }
+  	70% { left: -200%; }
+  	75% { left: -300%; }
+  	95% { left: -300%; }
+  	100% { left: -400%; }
+}
+
+#mainphotoetvideo{
+    padding-top: 5.5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.h1photo{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 2px solid rgb(125, 82, 26);
+}
+
+#sectionkda{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#kdavideo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#articlekda{
+    width: 50%;
+    border: 2px solid rgb(125, 82, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:5%;
+    padding: 1%;
+    background-color: rgb(58, 58, 58,0.3);
+}
+
+#sectionphotovideo{
+    height: 100%;
+}
+
+#sectionpentakill{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+#articlepentakill{
+    width: 50%;
+    border: 2px solid rgb(125, 82, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:5%;
+    padding: 1%;
+    background-color: rgb(58, 58, 58,0.3);
+}
+
+#sectionshurima{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+#articleshurima{
+    width: 50%;
+    border: 2px solid rgb(125, 82, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(58, 58, 58,0.3);
+    margin-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;  
+}
 
 
 /*================================================================================ACTUALITE================================================================*/
